@@ -3,6 +3,9 @@
   width: 633px;
   height: 458px;
   background: url(mondrian2.png) no-repeat;
+  grid-template-rows:
+  /* grid-template-columns:
+  grid-gap: */
  
 }
 div {
@@ -11,9 +14,13 @@ div {
 	opacity: 0.5;
 }
 .a {
+  grid-row: 1/6;
+	grid-column: 1/2;
 
 }
 .b {
+  grid-row: 1/2;
+	grid-column: 1/2;
 
 }
 .c {

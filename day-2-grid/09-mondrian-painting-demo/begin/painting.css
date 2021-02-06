@@ -3,6 +3,7 @@
   width: 600px;
   height: 600px;
   background: url(painting.png) no-repeat;
+  display: grid;
  
 }
 div {
@@ -11,24 +12,38 @@ div {
 	opacity: 0.5;
 }
 .a {
+  grid-row: 1/2;
+  grid-column: 1/2;
 
 }
 .b {
+  grid-row: 2/3;
+  grid-column: 1/2;
 
 }
 .c {
+  grid-row: 1/3;
+  grid-column: 2/4;
 
 }
 .d {
+  grid-row: 3/4;
+  grid-column: 1/2;
 
 }
 .e {
+  grid-row: 3/4;
+  grid-column: 2/3;
 
 }
 .f {
+  grid-row: 3/3;
+  grid-column: 3/3;
 
 }
 .g {
+  grid-row: 4/4;
+  grid-column: 3/3 ;
 	
 }
 
